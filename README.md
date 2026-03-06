@@ -16,3 +16,9 @@
 
 ## Connect with me
 - GitHub: https://github.com/azamrudi
+
+## 📊 GitHub Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Azamrudi&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Azamrudi&layout=compact)
