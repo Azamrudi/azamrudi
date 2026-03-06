@@ -19,6 +19,6 @@
 
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Azamrudi&show_icons=true&theme=tokyonight)
+![Stats](https://github-readme-stats.vercel.app/api?username=azamrudi&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Azamrudi&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=azamrudi&layout=compact)
