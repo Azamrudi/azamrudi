@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi 👋 I'm Akmal Azamrudi
 
-<!--
-**Azamrudi/azamrudi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Student interested in Robotics and IoT  
+🔧 Currently building AGV Robot  
+📡 Working with ESP32, Arduino, and Automation Systems  
 
-Here are some ideas to get you started:
+## Skills
+- C++
+- Arduino
+- ESP32
+- IoT Systems
+- Robotics
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Current Projects
+- AGV Robot with Line Navigation
+
+## Connect with me
+- GitHub: https://github.com/azamrudi
