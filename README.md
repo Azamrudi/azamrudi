@@ -2,7 +2,8 @@
 
 🎓 Student interested in Robotics and IoT  
 🔧 Currently building AGV Robot  
-📡 Working with ESP32, Arduino, and Automation Systems  
+📡 Working with ESP32, Arduino, and Automation Systems
+📚 And still eager to learn other things
 
 ## Skills
 - C++
