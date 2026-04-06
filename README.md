@@ -14,6 +14,7 @@
 
 ## Current Projects
 - AGV Robot with Line Navigation
+- An IoT Project
 
 ## Connect with me
 - GitHub: https://github.com/azamrudi
