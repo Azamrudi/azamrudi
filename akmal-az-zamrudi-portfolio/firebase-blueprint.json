@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "Functional hardware/software systems designed or engineered.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string", "enum": ["ai_cv", "robotics_iot", "web_cli"] },
+        "description": { "type": "object" },
+        "details": { "type": "object" },
+        "technologies": { "type": "array" },
+        "githubUrl": { "type": "string" },
+        "featured": { "type": "boolean" }
+      },
+      "required": ["id", "title", "category", "description", "technologies", "githubUrl"]
+    },
+    "Publication": {
+      "title": "Publication",
+      "description": "Academic papers or reports published.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "journal": { "type": "string" },
+        "year": { "type": "integer" },
+        "authors": { "type": "string" },
+        "tags": { "type": "array" },
+        "abstract": { "type": "object" },
+        "metrics": { "type": "array" },
+        "url": { "type": "string" }
+      },
+      "required": ["id", "title", "journal", "year", "authors", "tags", "abstract", "metrics", "url"]
+    },
+    "JourneyMilestone": {
+      "title": "JourneyMilestone",
+      "description": "Milestones in academic, systems layout or media operator journey.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "period": { "type": "string" },
+        "title": { "type": "object" },
+        "organization": { "type": "object" },
+        "details": { "type": "object" },
+        "colorClass": { "type": "string", "enum": ["cyan", "emerald", "slate"] }
+      },
+      "required": ["id", "period", "title", "organization", "details", "colorClass"]
+    }
+  },
+  "firestore": {
+    "projects/{projectId}": {
+      "schema": "Project",
+      "description": "Projects list managed by the admin."
+    },
+    "publications/{publicationId}": {
+      "schema": "Publication",
+      "description": "Academic and nlp/llm research publications."
+    },
+    "milestones/{milestoneId}": {
+      "schema": "JourneyMilestone",
+      "description": "Education, volunteering, and roles history."
+    }
+  }
+}
