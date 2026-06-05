@@ -1,6 +1,0 @@
-{
-  "name": "Akmal Az Zamrudi Portfolio",
-  "description": "Professional engineering and AI research portfolio for Muhammad Akmaluddin Az Zamrudi (Akmal Az Zamrudi). Displays academic LLM evaluations, Computer Vision ripeness pipelines, and advanced robotics integration.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
